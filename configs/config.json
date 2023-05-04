@@ -1,26 +1,28 @@
 {
   "INPUTS": {
-    "TRAIN_PATH": [
-      "input/case_study_data.csv"
-    ],
-    "SEPARATOR": ",",
+    "SEPARATOR": ";",
     "DECIMAL": "TODO",
     "ENCODING": "utf-8",
     "FLOAT_PRECISION": "TODO",
     "INDEX_COLUMNS": [
-      "Order ID"
+      "ID_Process",
+      "ID_Document"
     ],
     "DATE_COLUMNS": [
-      "Order Date"
+      "StartDateTimeUtc"
     ],
     "COLUMNS_WITH_NAN_VALUES": [
-      "Profit"
+      "Duration"
     ],
     "DTYPE": {
-      "Sales": "float64",
-      "Quantity": "int64",
-      "Discount": "float64",
-      "Profit": "float64"
+      "ID_Process": "object",
+      "ID_Document": "object",
+      "Queue": "object",
+      "ProcessingDuration": "int64",
+      "Duration": "int64",
+      "InputPageCount": "int64",
+      "MessagesInQueue": "int64",
+      "Retries": "int64"
     }
   },
   "X_ORDER": [
@@ -29,28 +31,27 @@
     "Technology"
   ],
   "HUE_ORDER": [
-    "Furniture-Bookcases",
-    "Furniture-Chairs",
-    "Furniture-Furnishings",
-    "Furniture-Tables",
-    "Office Supplies-Appliances",
-    "Office Supplies-Art",
-    "Office Supplies-Binders",
-    "Office Supplies-Envelopes",
-    "Office Supplies-Fasteners",
-    "Office Supplies-Labels",
-    "Office Supplies-Paper",
-    "Office Supplies-Storage",
-    "Office Supplies-Supplies",
-    "Technology-Accessories",
-    "Technology-Copiers",
-    "Technology-Machines",
-    "Technology-Phones"
+    "potok_0-0",
+    "potok_1-1",
+    "potok_1-2",
+    "potok_2-1",
+    "potok_2-2",
+    "potok_3-1",
+    "potok_3-2"
   ],
   "COL_ORDER": [
-    "West",
-    "Central",
-    "East",
-    "South"
+    "potok_0",
+    "potok_1",
+    "potok_2",
+    "potok_3"
+  ],
+  "WEEKDAY_ORDER": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
   ]
 }

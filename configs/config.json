@@ -1,0 +1,56 @@
+{
+  "INPUTS": {
+    "TRAIN_PATH": [
+      "input/case_study_data.csv"
+    ],
+    "SEPARATOR": ",",
+    "DECIMAL": "TODO",
+    "ENCODING": "utf-8",
+    "FLOAT_PRECISION": "TODO",
+    "INDEX_COLUMNS": [
+      "Order ID"
+    ],
+    "DATE_COLUMNS": [
+      "Order Date"
+    ],
+    "COLUMNS_WITH_NAN_VALUES": [
+      "Profit"
+    ],
+    "DTYPE": {
+      "Sales": "float64",
+      "Quantity": "int64",
+      "Discount": "float64",
+      "Profit": "float64"
+    }
+  },
+  "X_ORDER": [
+    "Furniture",
+    "Office Supplies",
+    "Technology"
+  ],
+  "HUE_ORDER": [
+    "Furniture-Bookcases",
+    "Furniture-Chairs",
+    "Furniture-Furnishings",
+    "Furniture-Tables",
+    "Office Supplies-Appliances",
+    "Office Supplies-Art",
+    "Office Supplies-Binders",
+    "Office Supplies-Envelopes",
+    "Office Supplies-Fasteners",
+    "Office Supplies-Labels",
+    "Office Supplies-Paper",
+    "Office Supplies-Storage",
+    "Office Supplies-Supplies",
+    "Technology-Accessories",
+    "Technology-Copiers",
+    "Technology-Machines",
+    "Technology-Phones"
+  ],
+  "COL_ORDER": [
+    "West",
+    "Central",
+    "East",
+    "South"
+  ]
+}

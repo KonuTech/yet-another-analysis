@@ -33,14 +33,11 @@
   "HUE_ORDER": [
     "potok_1-1",
     "potok_1-2",
-    "potok_2-1",
-    "potok_2-2",
     "potok_3-1",
     "potok_3-2"
   ],
   "COL_ORDER": [
     "potok_1",
-    "potok_2",
     "potok_3"
   ],
   "WEEKDAY_ORDER": [
